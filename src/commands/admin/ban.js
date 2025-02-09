@@ -7,7 +7,7 @@ const { toUserJid, onlyNumbers } = require(`${BASE_DIR}/utils`);
 
 module.exports = {
   name: "banir",
-  description: "Removo um membro do grupo",
+  description: "banir um membro do grupo",
   commands: ["ban", "kick"],
   usage: `${PREFIX}ban @marcar_membro 
   
@@ -38,7 +38,7 @@ ${PREFIX}ban (mencionando uma mensagem)`,
     }
 
     if (memberToRemoveJid === userJid) {
-      throw new DangerError("Você não pode remover você mesmo!");
+      throw new DangerError("Você não pode remover a si mesmo!");
     }
 
     const botJid = toUserJid(BOT_NUMBER);
@@ -55,6 +55,6 @@ ${PREFIX}ban (mencionando uma mensagem)`,
 
     await sendSuccessReact();
 
-    await sendReply("Membro removido com sucesso!");
+    await sendReply("Membro banido com sucesso!");
   },
 };
