@@ -82,7 +82,7 @@ async function connect() {
 
     infoLog('Informe o número de telefone do bot (exemplo: "5511920202020"):');
 
-    const phoneNumber = await question("Informe o número de telefone do bot: ");
+    const phoneNumber = await question("Informe o número de telefone para conectar o bot: ");
 
     if (!phoneNumber) {
       errorLog(
@@ -94,7 +94,7 @@ async function connect() {
 
     const code = await socket.requestPairingCode(onlyNumbers(phoneNumber));
 
-    sayLog(`Código de pareamento: ${code}`);
+    sayLog(`Código de conexao: ${code}`);
   }
 
   socket.ev.on("connection.update", async (update) => {
@@ -127,7 +127,7 @@ async function connect() {
             warningLog("Conexão proibida!");
             break;
           case DisconnectReason.restartRequired:
-            infoLog('Me reinicie por favor! Digite "npm start".');
+            infoLog('reinicie o script! Digite "npm start".');
             break;
           case DisconnectReason.unavailableService:
             warningLog("Serviço indisponível!");
@@ -138,7 +138,7 @@ async function connect() {
         load(newSocket);
       }
     } else if (connection === "open") {
-      successLog("Fui conectado com sucesso!");
+      successLog("bot conectado conectado com sucesso!");
     } else {
       infoLog("Atualizando conexão...");
     }
