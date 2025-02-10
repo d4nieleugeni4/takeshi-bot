@@ -6,7 +6,7 @@ const {
 
 module.exports = {
   name: "attp",
-  description: "Faz figurinhas animadas de texto.",
+  description: "cria figurinhas animadas de texto.",
   commands: ["attp"],
   usage: `${PREFIX}attp teste`,
   handle: async ({
