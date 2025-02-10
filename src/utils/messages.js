@@ -10,7 +10,7 @@ exports.waitMessage = "Carregando dados...";
 exports.menuMessage = () => {
   const date = new Date();
 
-  return `╭━━⪩ BEM VINDO! ⪨━━
+  return `╭━━⫸ ✮BEM VINDO!✮ ⫷━━
 ▢
 ▢ • ${BOT_NAME}
 ▢ • Data: ${date.toLocaleDateString("pt-br")}
@@ -19,14 +19,14 @@ exports.menuMessage = () => {
 ▢
 ╰━━─「🪐」─━━
 
-╭━━⪩ DONO ⪨━━
+╭━━⫸ ★DONO (DN)★ ⫷━━
 ▢
 ▢ • ${PREFIX}off
 ▢ • ${PREFIX}on
 ▢
 ╰━━─「🌌」─━━
 
-╭━━⪩ ADMINS ⪨━━
+╭━━⫸ ✮ADMINS✮ ⫷━━
 ▢
 ▢ • ${PREFIX}anti-link (1/0)
 ▢ • ${PREFIX}auto-responder (1/0)
@@ -36,7 +36,7 @@ exports.menuMessage = () => {
 ▢
 ╰━━─「⭐」─━━
 
-╭━━⪩ MENU ⪨━━
+╭━━⫸ ✮MENU✮ ⫷━━
 ▢
 ▢ • ${PREFIX}attp
 ▢ • ${PREFIX}cep
