@@ -138,7 +138,7 @@ async function connect() {
         load(newSocket);
       }
     } else if (connection === "open") {
-      successLog("bot conectado conectado com sucesso!");
+      successLog("JARVIS conectado conectado com sucesso!");
     } else {
       infoLog("Atualizando conexão...");
     }
