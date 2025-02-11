@@ -1,7 +1,5 @@
 /**
  * Funções diversas.
- *
- * @author Dev Gui
  */
 const { downloadContentFromMessage } = require("baileys");
 const { PREFIX, COMMANDS_DIR, TEMP_DIR } = require("../config");
