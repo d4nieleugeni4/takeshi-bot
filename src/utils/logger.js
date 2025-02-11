@@ -1,7 +1,5 @@
 /**
  * Logs
- *
- * @author Dev Gui
  */
 const { version } = require("../../package.json");
 
