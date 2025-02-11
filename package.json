@@ -1,7 +1,7 @@
 {
-  "name": "takeshi-bot",
+  "name": "JARVIS",
   "version": "2.4.0",
-  "description": "Um bot de WhatsApp multifunções.",
+  "description": "Um bot de WhatsApp top.",
   "main": "./src/index.js",
   "scripts": {
     "start": "node --watch ./src/index.js",
