@@ -36,7 +36,6 @@ exports.menuMessage = () => {
 ┃                      ┃ 
 ┗━━━━━━━━「⭐」━━━━━━━━┛
 
-
 ┏━━⫸ ✮MENU✮ ⫷━━┓
 ┃                ┃         
 ┃➤ ${PREFIX}attp        ┃
