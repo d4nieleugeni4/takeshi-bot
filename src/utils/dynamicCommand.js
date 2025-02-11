@@ -1,8 +1,6 @@
 /**
  * Direcionador
  * de comandos.
- *
- * @author Dev Gui
  */
 const { DangerError } = require("../errors/DangerError");
 const { InvalidParameterError } = require("../errors/InvalidParameterError");
