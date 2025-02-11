@@ -1,8 +1,5 @@
 /**
- * Arquivo pra rodar alguns testes,
- * nada demais.
- *
- * @author Dev Gui
+ * Arquivo pra rodar alguns testes
  */
 (async () => {
   console.log("Apenas testando");
